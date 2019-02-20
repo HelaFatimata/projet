@@ -1,0 +1,10 @@
+version: '2'
+services:
+    mysqlhost:
+        image: ilboudo/mysql-server
+    web:
+        image: ilboudo/myphpapp
+        ports:
+            - "8090:80"
+        
+ 
